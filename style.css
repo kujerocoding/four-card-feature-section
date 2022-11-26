@@ -55,7 +55,7 @@ body {
 }
 
 .features__container {
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -70,7 +70,25 @@ body {
     justify-content: start;
     align-items: flex-start;
     box-shadow: 0px 20px 20px -10px var(--GRAYISHBLUE);
+    border-radius: 10px;
 }
+
+.card__container:first-child{
+    border-top: 6px solid var(--CYAN);
+}
+
+.card__container:nth-child(2){
+    border-top: 6px solid var(--RED);
+}
+
+.card__container:nth-child(3){
+    border-top: 6px solid var(--ORANGE);
+}
+
+.card__container:last-child{
+    border-top: 6px solid var(--BLUE);
+}
+
 
 .card__title {
     color: var(--VERYDARKBLUE);
