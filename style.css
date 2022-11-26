@@ -17,3 +17,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: var(--FF);
+    font-size: var(--FS);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main__container {
+    margin-inline: auto;
+    padding-inline: 20px;
+    padding-block: 50px;
+}
+
+.text__container {
+    max-width: 330px;
+    text-align: center;
+}
+
+.text__heading {
+    color: var(--GRAYISHBLUE);
+    font-weight: lighter;
+}
+
+.text__heading span {
+    color: var(--VERYDARKBLUE);
+    font-weight: 700;
+}
+
+.text__paragraph {
+    color: var(--GRAYISHBLUE);
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.features__container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__container {
+    max-width: 330px;
+    outline: 1px solid red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.card__img{
+    align-self: flex-end;
+    padding-top: 30px;
+}
